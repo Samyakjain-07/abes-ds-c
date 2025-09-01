@@ -1,0 +1,33 @@
+1. to check install
+git --version
+
+2. to set config
+git config --global user.name "your_name"
+git config --global user.email "your_email"
+
+3. to check
+git config --global user.name
+git config --global user.email
+
+4. to check config 
+git config --list
+
+5. to push on git
+git add .
+git commit -m "this is the inital to know the working of git(example)"
+git push
+
+
+6. steps for pushing file on git using url from git repo..
+git add .
+git commit -m "your message"
+git remote add origin <url>
+if error coming for  remote origin already exists, then
+git remote set-url origin <url>
+git push
+
+
+7. to check the status of the file after pushing on git
+git status
+if modified or any changes on file, then
+then repeat 5
