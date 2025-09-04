@@ -31,3 +31,25 @@ git push
 git status
 if modified or any changes on file, then
 then repeat 5
+
+8. to get out of directory, like
+PS C:\Users\lenovo\Desktop\abes-cse-ds-c> cd ..
+
+9. to set 
+cd folder(ex. abes-cse-ds-c)
+
+miscelleanous commands
+PS C:\Users\lenovo\Desktop\abes-cse-ds-c> git add .
+PS C:\Users\lenovo\Desktop\abes-cse-ds-c> git commit -m "Registration form"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\lenovo\Desktop\abes-cse-ds-c> git branch -M main
+git push -u origin main
+git push -u origin main --force
+
+10. after setting remote check remote:
+git remote -v
+
+11. 
